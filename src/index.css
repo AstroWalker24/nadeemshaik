@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* declaring the downloaded font faces  */
+@font-face {
+    font-family: "NeueMachina-Regular";
+    src: url('./assets/fonts/NeueMachina-Regular.otf');
+}
+@font-face {
+    font-family: "Terminal";
+    src: url('./assets/fonts/Terminal.ttf');
+}
+
+/* declaring the global color of the body  */
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(2,29,3,1) 58%, rgba(0,6,1,1) 100%); 
+}
